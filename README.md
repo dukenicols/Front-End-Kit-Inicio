@@ -1,0 +1,13 @@
+# Front-End-Kit-Inicio
+
+Kit de Inicio para comenzar a trabajar en proyectos Front-End
+
+Utiliza:
+Express + Gulp + Sass
+
+Servidor Express configurado en puerto 4000
+Gulp
+Livereload - No browser plugin required
+Sass -> extension .sass ---> Yes! No brackets! (:
+
+
