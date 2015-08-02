@@ -3,7 +3,7 @@
 Kit de Inicio para comenzar a trabajar en proyectos Front-End
 
 Utiliza:
-Express + Gulp + Sass
+Express + Gulp + Sass + Bourbon
 
 Servidor Express configurado en puerto 4000
 Gulp
