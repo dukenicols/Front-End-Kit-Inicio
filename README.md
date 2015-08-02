@@ -10,4 +10,6 @@ Gulp
 Livereload - No browser plugin required
 Sass -> extension .sass ---> Yes! No brackets! (:
 
-
+1 Iniciar
+  1 npm install
+  2 gulp
