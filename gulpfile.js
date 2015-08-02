@@ -20,7 +20,7 @@ gulp.task('livereload', function() {
 
 
 gulp.task('styles', function () {
-    return sass('./src/sass/')
+    return sass('./src/css/')
         .on('error', function (err) {
             console.error('Error!', err.message);
         })
@@ -54,7 +54,7 @@ function notifyLiveReload(event) {
 
 gulp.task('watch', function() {
   gulp.watch('./src/*.html', ['html']);
-  gulp.watch('./src/sass/*.sass', ['styles']);
+  gulp.watch('./src/css/*/*.sass', ['styles']);
   gulp.watch('./src/js/*.js', ['js']);
   gulp.watch('./public/css/*.css', notifyLiveReload);
   gulp.watch('./public/*.html', notifyLiveReload);
